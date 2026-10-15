@@ -224,16 +224,4 @@ docker tag taskmanagement:1.0 YOUR_DOCKERHUB_USERNAME/taskmanagement:1.0
 docker push YOUR_DOCKERHUB_USERNAME/taskmanagement:1.0
 ```
 
-Do not include database credentials or JWT secrets in the image or a
-public repository.
 
-## Submission checklist
-
--   [ ] Source code pushed to GitHub or sent as a ZIP
--   [ ] README included and updated to match the actual project
--   [ ] CRUD endpoints tested
--   [ ] Tests run and results reviewed
--   [ ] PostgreSQL schema/dump requirement addressed
--   [ ] No real passwords, tokens, or signing secrets committed
--   [ ] If submitting through GitHub, invite `iks-hiring` to view the
-    repository
